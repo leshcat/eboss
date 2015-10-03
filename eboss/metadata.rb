@@ -4,6 +4,7 @@ maintainer_email 'dzenisevich.aliaksei@gmail.com'
 license 'No rights reserved (C)'
 description 'Installs/Configures eboss'
 long_description 'Installs/Configures eboss'
-version '0.1.0'
+version '0.2.0'
 
 depends 'java', '~> 1.35.0'
+depends 'zip', '~> 1.1.0'
