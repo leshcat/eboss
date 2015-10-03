@@ -35,7 +35,7 @@ end
 execute "unpack" do
         cwd node['eboss']['jboss_base']
         command "unzip -o #{jboss_base}/#{jboss_pkg} -d #{jboss_base}/"
-        action :run
+        action :nothing
 	notifies :run, "execute[fixrights]", :immediately
 end
 
@@ -51,7 +51,7 @@ end
 execute "unpack_example" do
         cwd node['eboss']['jboss_base']
         command "unzip -o #{jboss_base}/example.zip -d #{jboss_base}/#{homedir_name}/standalone/deployments"
-	action :run
+	action :nothing
 	notifies :run, "execute[fixrights]", :immediately
 end
 
