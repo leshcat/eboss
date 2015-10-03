@@ -1,0 +1,508 @@
+I, [2015-10-03T16:18:51.956097 #20044]  INFO -- default-centos-66: -----> Converging <default-centos-66>...
+I, [2015-10-03T16:18:51.958097 #20044]  INFO -- default-centos-66: Preparing files for transfer
+I, [2015-10-03T16:18:51.958597 #20044]  INFO -- default-centos-66: Preparing dna.json
+I, [2015-10-03T16:18:51.959597 #20044]  INFO -- default-centos-66: Resolving cookbook dependencies with Berkshelf 3.3.0...
+I, [2015-10-03T16:18:52.191627 #20044]  INFO -- default-centos-66: Removing non-cookbook files before transfer
+I, [2015-10-03T16:18:52.202628 #20044]  INFO -- default-centos-66: Preparing validation.pem
+I, [2015-10-03T16:18:52.204128 #20044]  INFO -- default-centos-66: Preparing client.rb
+I, [2015-10-03T16:18:52.448660 #20044]  INFO -- default-centos-66: -----> Installing Chef Omnibus (install only if missing)
+I, [2015-10-03T16:18:52.449660 #20044]  INFO -- default-centos-66: Downloading https://www.chef.io/chef/install.sh to file /tmp/install.sh
+I, [2015-10-03T16:18:52.449660 #20044]  INFO -- default-centos-66: Trying wget...
+I, [2015-10-03T16:18:52.990728 #20044]  INFO -- default-centos-66: Download complete.
+I, [2015-10-03T16:18:53.031233 #20044]  INFO -- default-centos-66: Downloading Chef  for el...
+I, [2015-10-03T16:18:53.031233 #20044]  INFO -- default-centos-66: downloading https://www.chef.io/chef/metadata?v=&prerelease=false&nightlies=false&p=el&pv=6&m=x86_64
+I, [2015-10-03T16:18:53.031233 #20044]  INFO -- default-centos-66:   to file /tmp/install.sh.2394/metadata.txt
+I, [2015-10-03T16:18:53.031233 #20044]  INFO -- default-centos-66: trying wget...
+I, [2015-10-03T16:18:53.473790 #20044]  INFO -- default-centos-66: url	https://opscode-omnibus-packages.s3.amazonaws.com/el/6/x86_64/chef-12.4.3-1.el6.x86_64.rpm
+I, [2015-10-03T16:18:53.474290 #20044]  INFO -- default-centos-66: md5	55c362947656f1c4d5d871fa9481a532
+I, [2015-10-03T16:18:53.474290 #20044]  INFO -- default-centos-66: sha256	a011ba87bcd89a02d1cbdffb97a295f753cbb194afef9a1b3b3ca93148fd7808
+I, [2015-10-03T16:18:53.481791 #20044]  INFO -- default-centos-66: downloaded metadata file looks valid...
+I, [2015-10-03T16:18:53.504294 #20044]  INFO -- default-centos-66: downloading https://opscode-omnibus-packages.s3.amazonaws.com/el/6/x86_64/chef-12.4.3-1.el6.x86_64.rpm
+I, [2015-10-03T16:18:53.504294 #20044]  INFO -- default-centos-66:   to file /tmp/install.sh.2394/chef-12.4.3-1.el6.x86_64.rpm
+I, [2015-10-03T16:18:53.504794 #20044]  INFO -- default-centos-66: trying wget...
+I, [2015-10-03T16:19:52.073731 #20044]  INFO -- default-centos-66: Comparing checksum with sha256sum...
+I, [2015-10-03T16:19:52.284758 #20044]  INFO -- default-centos-66: 
+I, [2015-10-03T16:19:52.284758 #20044]  INFO -- default-centos-66: WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING
+I, [2015-10-03T16:19:52.284758 #20044]  INFO -- default-centos-66: 
+I, [2015-10-03T16:19:52.285258 #20044]  INFO -- default-centos-66: You are installing an omnibus package without a version pin.  If you are installing
+I, [2015-10-03T16:19:52.285258 #20044]  INFO -- default-centos-66: on production servers via an automated process this is DANGEROUS and you will
+I, [2015-10-03T16:19:52.285258 #20044]  INFO -- default-centos-66: be upgraded without warning on new releases, even to new major releases.
+I, [2015-10-03T16:19:52.285258 #20044]  INFO -- default-centos-66: Letting the version float is only appropriate in desktop, test, development or
+I, [2015-10-03T16:19:52.285258 #20044]  INFO -- default-centos-66: CI/CD environments.
+I, [2015-10-03T16:19:52.285258 #20044]  INFO -- default-centos-66: 
+I, [2015-10-03T16:19:52.285258 #20044]  INFO -- default-centos-66: WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING
+I, [2015-10-03T16:19:52.285758 #20044]  INFO -- default-centos-66: 
+I, [2015-10-03T16:19:52.285758 #20044]  INFO -- default-centos-66: Installing Chef 
+I, [2015-10-03T16:19:52.285758 #20044]  INFO -- default-centos-66: installing with rpm...
+I, [2015-10-03T16:19:52.367268 #20044]  INFO -- default-centos-66: warning: /tmp/install.sh.2394/chef-12.4.3-1.el6.x86_64.rpm: Header V4 DSA/SHA1 Signature, key ID 83ef826a: NOKEY
+I, [2015-10-03T16:19:52.567794 #20044]  INFO -- default-centos-66: Preparing...                                                            (100%)#                                           (100%)##                                          (100%)###                                         (100%)####                                        (100%)#####                                       (100%)######                                      (100%)#######                                     (100%)########                                    (100%)#########                                   (100%)##########                                  (100%)###########                                 (100%)############                                (100%)#############                               (100%)##############                              (100%)###############                             (100%)################                            (100%)#################                           (100%)##################                          (100%)###################                         (100%)####################                        (100%)#####################                       (100%)######################                      (100%)#######################                     (100%)########################                    (100%)#########################                   (100%)##########################                  (100%)###########################                 (100%)############################                (100%)#############################               (100%)##############################              (100%)###############################             (100%)################################            (100%)#################################           (100%)##################################          (100%)###################################         (100%)####################################        (100%)#####################################       (100%)######################################      (100%)#######################################     (100%)########################################    (100%)#########################################   (100%)##########################################  (100%)########################################### (100%)########################################### [100%]
+I, [2015-10-03T16:19:55.692190 #20044]  INFO -- default-centos-66:    1:chef                                                               (  1%)#                                           (  3%)##                                          (  6%)###                                         (  8%)####                                        ( 10%)#####                                       ( 13%)######                                      ( 15%)#######                                     ( 17%)########                                    ( 19%)#########                                   ( 22%)##########                                  ( 24%)###########                                 ( 26%)############                                ( 28%)#############                               ( 31%)##############                              ( 33%)###############                             ( 35%)################                            ( 38%)#################                           ( 40%)##################                          ( 42%)###################                         ( 44%)####################                        ( 47%)#####################                       ( 49%)######################                      ( 51%)#######################                     ( 53%)########################                    ( 56%)#########################                   ( 58%)##########################                  ( 60%)###########################                 ( 63%)############################                ( 65%)#############################               ( 67%)##############################              ( 69%)###############################             ( 72%)################################            ( 74%)#################################           ( 76%)##################################          ( 78%)###################################         ( 81%)####################################        ( 83%)#####################################       ( 85%)######################################      ( 88%)#######################################     ( 90%)########################################    ( 92%)#########################################   ( 94%)##########################################  ( 97%)########################################### ( 99%)########################################### [100%]
+I, [2015-10-03T16:19:56.276765 #20044]  INFO -- default-centos-66: Thank you for installing Chef!
+I, [2015-10-03T16:19:56.348774 #20044]  INFO -- default-centos-66: Transferring files to <default-centos-66>
+I, [2015-10-03T16:19:58.913599 #20044]  INFO -- default-centos-66: Starting Chef Client, version 12.4.3
+I, [2015-10-03T16:19:59.984235 #20044]  INFO -- default-centos-66: Creating a new client identity for default-centos-66 using the validator key.
+I, [2015-10-03T16:20:00.314777 #20044]  INFO -- default-centos-66: [2015-10-03T13:19:58+00:00] WARN: Child with name 'dna.json' found in multiple directories: /tmp/kitchen/dna.json and /tmp/kitchen/dna.json
+I, [2015-10-03T16:20:00.315277 #20044]  INFO -- default-centos-66: [2015-10-03T13:19:58+00:00] WARN: Child with name 'dna.json' found in multiple directories: /tmp/kitchen/dna.json and /tmp/kitchen/dna.json
+I, [2015-10-03T16:20:00.325779 #20044]  INFO -- default-centos-66: resolving cookbooks for run list: ["eboss::default"]
+I, [2015-10-03T16:20:00.326279 #20044]  INFO -- default-centos-66: [2015-10-03T13:19:58+00:00] WARN: Child with name 'dna.json' found in multiple directories: /tmp/kitchen/dna.json and /tmp/kitchen/dna.json
+I, [2015-10-03T16:20:00.416790 #20044]  INFO -- default-centos-66: Synchronizing Cookbooks:
+I, [2015-10-03T16:20:00.577311 #20044]  INFO -- default-centos-66:   - eboss
+I, [2015-10-03T16:20:00.587812 #20044]  INFO -- default-centos-66:   - java
+I, [2015-10-03T16:20:00.588312 #20044]  INFO -- default-centos-66:   - zip
+I, [2015-10-03T16:20:00.588312 #20044]  INFO -- default-centos-66: Compiling Cookbooks...
+I, [2015-10-03T16:20:00.598813 #20044]  INFO -- default-centos-66: Converging 21 resources
+I, [2015-10-03T16:20:00.599314 #20044]  INFO -- default-centos-66: Recipe: java::openjdk
+I, [2015-10-03T16:21:13.363053 #20044]  INFO -- default-centos-66: 
+I, [2015-10-03T16:21:13.363053 #20044]  INFO -- default-centos-66:     - install version 1.6.0.36-1.13.8.1.el6_7 of package java-1.6.0-openjdk
+I, [2015-10-03T16:21:30.608743 #20044]  INFO -- default-centos-66:   * yum_package[java-1.6.0-openjdk-devel] action install
+I, [2015-10-03T16:21:30.608743 #20044]  INFO -- default-centos-66:     - install version 1.6.0.36-1.13.8.1.el6_7 of package java-1.6.0-openjdk-devel
+I, [2015-10-03T16:21:30.690254 #20044]  INFO -- default-centos-66: 
+I, [2015-10-03T16:21:30.771264 #20044]  INFO -- default-centos-66: 
+I, [2015-10-03T16:21:30.832272 #20044]  INFO -- default-centos-66: 
+I, [2015-10-03T16:21:30.923283 #20044]  INFO -- default-centos-66: 
+I, [2015-10-03T16:21:30.994292 #20044]  INFO -- default-centos-66: 
+I, [2015-10-03T16:21:31.085304 #20044]  INFO -- default-centos-66: 
+I, [2015-10-03T16:21:31.166314 #20044]  INFO -- default-centos-66: 
+I, [2015-10-03T16:21:31.247824 #20044]  INFO -- default-centos-66: 
+I, [2015-10-03T16:21:31.338836 #20044]  INFO -- default-centos-66: 
+I, [2015-10-03T16:21:31.409845 #20044]  INFO -- default-centos-66: 
+I, [2015-10-03T16:21:31.501357 #20044]  INFO -- default-centos-66: 
+I, [2015-10-03T16:21:31.602870 #20044]  INFO -- default-centos-66: 
+I, [2015-10-03T16:21:31.704382 #20044]  INFO -- default-centos-66: 
+I, [2015-10-03T16:21:31.806395 #20044]  INFO -- default-centos-66: 
+I, [2015-10-03T16:21:31.908408 #20044]  INFO -- default-centos-66: 
+I, [2015-10-03T16:21:31.979417 #20044]  INFO -- default-centos-66: 
+I, [2015-10-03T16:21:32.060928 #20044]  INFO -- default-centos-66: 
+I, [2015-10-03T16:21:32.152939 #20044]  INFO -- default-centos-66: 
+I, [2015-10-03T16:21:32.254952 #20044]  INFO -- default-centos-66: 
+I, [2015-10-03T16:21:32.356465 #20044]  INFO -- default-centos-66: 
+I, [2015-10-03T16:21:32.457978 #20044]  INFO -- default-centos-66: 
+I, [2015-10-03T16:21:32.528987 #20044]  INFO -- default-centos-66: 
+I, [2015-10-03T16:21:32.610497 #20044]  INFO -- default-centos-66: 
+I, [2015-10-03T16:21:32.681506 #20044]  INFO -- default-centos-66: 
+I, [2015-10-03T16:21:32.753016 #20044]  INFO -- default-centos-66: 
+I, [2015-10-03T16:21:32.824025 #20044]  INFO -- default-centos-66: 
+I, [2015-10-03T16:21:32.895534 #20044]  INFO -- default-centos-66: 
+I, [2015-10-03T16:21:32.977044 #20044]  INFO -- default-centos-66: 
+I, [2015-10-03T16:21:33.069056 #20044]  INFO -- default-centos-66: 
+I, [2015-10-03T16:21:33.160067 #20044]  INFO -- default-centos-66: 
+I, [2015-10-03T16:21:33.241578 #20044]  INFO -- default-centos-66: 
+I, [2015-10-03T16:21:33.363593 #20044]  INFO -- default-centos-66: 
+I, [2015-10-03T16:21:33.485109 #20044]  INFO -- default-centos-66: 
+I, [2015-10-03T16:21:33.576620 #20044]  INFO -- default-centos-66: 
+I, [2015-10-03T16:21:33.668632 #20044]  INFO -- default-centos-66: 
+I, [2015-10-03T16:21:33.790147 #20044]  INFO -- default-centos-66: 
+I, [2015-10-03T16:21:33.891160 #20044]  INFO -- default-centos-66: 
+I, [2015-10-03T16:21:33.992673 #20044]  INFO -- default-centos-66: 
+I, [2015-10-03T16:21:34.024177 #20044]  INFO -- default-centos-66: 
+I, [2015-10-03T16:21:34.026177 #20044]  INFO -- default-centos-66: Recipe: java::set_java_home
+I, [2015-10-03T16:21:34.027677 #20044]  INFO -- default-centos-66: 
+I, [2015-10-03T16:21:34.027677 #20044]  INFO -- default-centos-66:     - execute the ruby block set-env-java-home
+I, [2015-10-03T16:21:34.030178 #20044]  INFO -- default-centos-66:  (up to date)
+I, [2015-10-03T16:21:34.032178 #20044]  INFO -- default-centos-66: * file[/etc/profile.d/jdk.sh] action create
+I, [2015-10-03T16:21:34.033178 #20044]  INFO -- default-centos-66: 
+I, [2015-10-03T16:21:34.033678 #20044]  INFO -- default-centos-66:     - update content in file /etc/profile.d/jdk.sh from none to 311825
+I, [2015-10-03T16:21:34.033678 #20044]  INFO -- default-centos-66:     --- /etc/profile.d/jdk.sh	2015-10-03 13:21:32.327728028 +0000
+I, [2015-10-03T16:21:34.033678 #20044]  INFO -- default-centos-66:     +++ /etc/profile.d/.jdk.sh20151003-2511-2oi7e9	2015-10-03 13:21:32.327728028 +0000
+I, [2015-10-03T16:21:34.033678 #20044]  INFO -- default-centos-66:     @@ -1 +1,2 @@
+I, [2015-10-03T16:21:34.040179 #20044]  INFO -- default-centos-66: 
+I, [2015-10-03T16:21:34.181197 #20044]  INFO -- default-centos-66: 
+I, [2015-10-03T16:21:34.181197 #20044]  INFO -- default-centos-66:     - restore selinux security context
+I, [2015-10-03T16:21:34.181197 #20044]  INFO -- default-centos-66: Recipe: zip::default
+I, [2015-10-03T16:21:35.693889 #20044]  INFO -- default-centos-66: 
+I, [2015-10-03T16:21:35.693889 #20044]  INFO -- default-centos-66:     - install version 3.0-1.el6 of package zip
+I, [2015-10-03T16:21:37.085566 #20044]  INFO -- default-centos-66: 
+I, [2015-10-03T16:21:37.085566 #20044]  INFO -- default-centos-66:     - install version 6.0-2.el6_6 of package unzip
+I, [2015-10-03T16:21:37.085566 #20044]  INFO -- default-centos-66: Recipe: eboss::jboss_standalone
+I, [2015-10-03T16:21:37.237585 #20044]  INFO -- default-centos-66: 
+I, [2015-10-03T16:21:37.237585 #20044]  INFO -- default-centos-66:     - create user jboss
+I, [2015-10-03T16:24:18.737093 #20044]  INFO -- default-centos-66: 
+I, [2015-10-03T16:24:19.988252 #20044]  INFO -- default-centos-66: 
+I, [2015-10-03T16:24:19.988252 #20044]  INFO -- default-centos-66:     - update content in file /opt/jboss.zip from none to 0aece7
+I, [2015-10-03T16:24:19.989752 #20044]  INFO -- default-centos-66: 
+I, [2015-10-03T16:24:19.989752 #20044]  INFO -- default-centos-66:     - change mode from '' to '0644'
+I, [2015-10-03T16:24:19.989752 #20044]  INFO -- default-centos-66:     - change owner from '' to 'root'
+I, [2015-10-03T16:24:20.091265 #20044]  INFO -- default-centos-66: 
+I, [2015-10-03T16:24:20.092265 #20044]  INFO -- default-centos-66: 
+I, [2015-10-03T16:24:21.683967 #20044]  INFO -- default-centos-66: 
+I, [2015-10-03T16:24:21.683967 #20044]  INFO -- default-centos-66:     - execute unzip -o /opt/jboss.zip -d /opt/
+I, [2015-10-03T16:24:21.725472 #20044]  INFO -- default-centos-66: 
+I, [2015-10-03T16:24:21.725472 #20044]  INFO -- default-centos-66:     - execute chown jboss. /opt/jboss-as-7.1.1.Final -R
+I, [2015-10-03T16:24:21.725972 #20044]  INFO -- default-centos-66:   * execute[unpack] action nothing (skipped due to action :nothing)
+I, [2015-10-03T16:24:22.598083 #20044]  INFO -- default-centos-66:   * remote_file[/opt/example.zip] action create
+I, [2015-10-03T16:24:22.600083 #20044]  INFO -- default-centos-66: 
+I, [2015-10-03T16:24:22.600583 #20044]  INFO -- default-centos-66:     - update content in file /opt/example.zip from none to 596c0b
+I, [2015-10-03T16:24:22.603084 #20044]  INFO -- default-centos-66: 
+I, [2015-10-03T16:24:22.603084 #20044]  INFO -- default-centos-66:     - change mode from '' to '0644'
+I, [2015-10-03T16:24:22.605584 #20044]  INFO -- default-centos-66: - change owner from '' to 'root'
+I, [2015-10-03T16:24:22.727100 #20044]  INFO -- default-centos-66: 
+I, [2015-10-03T16:24:22.727100 #20044]  INFO -- default-centos-66:     - restore selinux security context
+I, [2015-10-03T16:24:22.748602 #20044]  INFO -- default-centos-66: 
+I, [2015-10-03T16:24:22.748602 #20044]  INFO -- default-centos-66:     - execute unzip -o /opt/example.zip -d /opt/jboss-as-7.1.1.Final/standalone/deployments
+I, [2015-10-03T16:24:22.780106 #20044]  INFO -- default-centos-66: 
+I, [2015-10-03T16:24:22.780106 #20044]  INFO -- default-centos-66:     - execute chown jboss. /opt/jboss-as-7.1.1.Final -R
+I, [2015-10-03T16:24:22.780106 #20044]  INFO -- default-centos-66:   * execute[unpack_example] action nothing (skipped due to action :nothing)
+I, [2015-10-03T16:24:22.782107 #20044]  INFO -- default-centos-66:   * execute[fixrights] action nothing (skipped due to action :nothing)
+I, [2015-10-03T16:24:22.792608 #20044]  INFO -- default-centos-66: 
+I, [2015-10-03T16:24:22.793608 #20044]  INFO -- default-centos-66: 
+I, [2015-10-03T16:24:22.794108 #20044]  INFO -- default-centos-66:     - update content in file /etc/init.d/jboss from none to 12a078
+I, [2015-10-03T16:24:22.794108 #20044]  INFO -- default-centos-66:     --- /etc/init.d/jboss	2015-10-03 13:24:21.156099993 +0000
+I, [2015-10-03T16:24:22.794108 #20044]  INFO -- default-centos-66:     +++ /tmp/chef-rendered-template20151003-2511-gq6yjg	2015-10-03 13:24:21.155099493 +0000
+I, [2015-10-03T16:24:22.794108 #20044]  INFO -- default-centos-66:     @@ -1 +1,177 @@
+I, [2015-10-03T16:24:22.794108 #20044]  INFO -- default-centos-66:     +#!/bin/sh
+I, [2015-10-03T16:24:22.794108 #20044]  INFO -- default-centos-66:     +#
+I, [2015-10-03T16:24:22.794108 #20044]  INFO -- default-centos-66:     +# JBoss standalone control script
+I, [2015-10-03T16:24:22.794108 #20044]  INFO -- default-centos-66:     +#
+I, [2015-10-03T16:24:22.794108 #20044]  INFO -- default-centos-66:     +# chkconfig: - 80 20
+I, [2015-10-03T16:24:22.794108 #20044]  INFO -- default-centos-66:     +# description: JBoss AS Standalone
+I, [2015-10-03T16:24:22.794108 #20044]  INFO -- default-centos-66:     +# processname: standalone
+I, [2015-10-03T16:24:22.794108 #20044]  INFO -- default-centos-66:     +# pidfile: /var/run/jboss-as/jboss-as-standalone.pid
+I, [2015-10-03T16:24:22.794108 #20044]  INFO -- default-centos-66:     +# config: /etc/jboss-as/jboss-as.conf
+I, [2015-10-03T16:24:22.794608 #20044]  INFO -- default-centos-66:     +
+I, [2015-10-03T16:24:22.794608 #20044]  INFO -- default-centos-66:     +# Source function library.
+I, [2015-10-03T16:24:22.794608 #20044]  INFO -- default-centos-66:     +. /etc/init.d/functions
+I, [2015-10-03T16:24:22.794608 #20044]  INFO -- default-centos-66:     +
+I, [2015-10-03T16:24:22.794608 #20044]  INFO -- default-centos-66:     +# Load Java configuration.
+I, [2015-10-03T16:24:22.794608 #20044]  INFO -- default-centos-66:     +[ -r /etc/java/java.conf ] && . /etc/java/java.conf
+I, [2015-10-03T16:24:22.794608 #20044]  INFO -- default-centos-66:     +export JAVA_HOME
+I, [2015-10-03T16:24:22.794608 #20044]  INFO -- default-centos-66:     +
+I, [2015-10-03T16:24:22.794608 #20044]  INFO -- default-centos-66:     +# Load JBoss AS init.d configuration.
+I, [2015-10-03T16:24:22.794608 #20044]  INFO -- default-centos-66:     +if [ -z "$JBOSS_CONF" ]; then
+I, [2015-10-03T16:24:22.794608 #20044]  INFO -- default-centos-66:     +  JBOSS_CONF="/etc/jboss-as/jboss-as.conf"
+I, [2015-10-03T16:24:22.794608 #20044]  INFO -- default-centos-66:     +fi
+I, [2015-10-03T16:24:22.794608 #20044]  INFO -- default-centos-66:     +
+I, [2015-10-03T16:24:22.794608 #20044]  INFO -- default-centos-66:     +[ -r "$JBOSS_CONF" ] && . "${JBOSS_CONF}"
+I, [2015-10-03T16:24:22.794608 #20044]  INFO -- default-centos-66:     +
+I, [2015-10-03T16:24:22.794608 #20044]  INFO -- default-centos-66:     +# Set defaults.
+I, [2015-10-03T16:24:22.794608 #20044]  INFO -- default-centos-66:     +
+I, [2015-10-03T16:24:22.794608 #20044]  INFO -- default-centos-66:     +if [ -z "$JBOSS_HOME" ]; then
+I, [2015-10-03T16:24:22.795108 #20044]  INFO -- default-centos-66:     +  JBOSS_HOME=/usr/share/jboss-as
+I, [2015-10-03T16:24:22.795108 #20044]  INFO -- default-centos-66:     +fi
+I, [2015-10-03T16:24:22.795108 #20044]  INFO -- default-centos-66:     +export JBOSS_HOME
+I, [2015-10-03T16:24:22.795108 #20044]  INFO -- default-centos-66:     +
+I, [2015-10-03T16:24:22.795108 #20044]  INFO -- default-centos-66:     +if [ -z "$JBOSS_PIDFILE" ]; then
+I, [2015-10-03T16:24:22.795108 #20044]  INFO -- default-centos-66:     +  JBOSS_PIDFILE=/var/run/jboss-as/jboss-as-standalone.pid
+I, [2015-10-03T16:24:22.795108 #20044]  INFO -- default-centos-66:     +fi
+I, [2015-10-03T16:24:22.795108 #20044]  INFO -- default-centos-66:     +export JBOSS_PIDFILE
+I, [2015-10-03T16:24:22.795108 #20044]  INFO -- default-centos-66:     +
+I, [2015-10-03T16:24:22.795108 #20044]  INFO -- default-centos-66:     +if [ -z "$JBOSS_CONSOLE_LOG" ]; then
+I, [2015-10-03T16:24:22.795108 #20044]  INFO -- default-centos-66:     +  JBOSS_CONSOLE_LOG=/var/log/jboss-as/console.log
+I, [2015-10-03T16:24:22.795108 #20044]  INFO -- default-centos-66:     +fi
+I, [2015-10-03T16:24:22.795108 #20044]  INFO -- default-centos-66:     +
+I, [2015-10-03T16:24:22.795108 #20044]  INFO -- default-centos-66:     +if [ -z "$STARTUP_WAIT" ]; then
+I, [2015-10-03T16:24:22.795108 #20044]  INFO -- default-centos-66:     +  STARTUP_WAIT=30
+I, [2015-10-03T16:24:22.795108 #20044]  INFO -- default-centos-66:     +fi
+I, [2015-10-03T16:24:22.795108 #20044]  INFO -- default-centos-66:     +
+I, [2015-10-03T16:24:22.795608 #20044]  INFO -- default-centos-66:     +if [ -z "$SHUTDOWN_WAIT" ]; then
+I, [2015-10-03T16:24:22.795608 #20044]  INFO -- default-centos-66:     +  SHUTDOWN_WAIT=30
+I, [2015-10-03T16:24:22.795608 #20044]  INFO -- default-centos-66:     +fi
+I, [2015-10-03T16:24:22.795608 #20044]  INFO -- default-centos-66:     +
+I, [2015-10-03T16:24:22.795608 #20044]  INFO -- default-centos-66:     +if [ -z "$JBOSS_CONFIG" ]; then
+I, [2015-10-03T16:24:22.795608 #20044]  INFO -- default-centos-66:     +  JBOSS_CONFIG=standalone.xml
+I, [2015-10-03T16:24:22.795608 #20044]  INFO -- default-centos-66:     +fi
+I, [2015-10-03T16:24:22.795608 #20044]  INFO -- default-centos-66:     +
+I, [2015-10-03T16:24:22.795608 #20044]  INFO -- default-centos-66:     +JBOSS_SCRIPT=$JBOSS_HOME/bin/standalone.sh
+I, [2015-10-03T16:24:22.795608 #20044]  INFO -- default-centos-66:     +
+I, [2015-10-03T16:24:22.795608 #20044]  INFO -- default-centos-66:     +prog='jboss-as'
+I, [2015-10-03T16:24:22.795608 #20044]  INFO -- default-centos-66:     +
+I, [2015-10-03T16:24:22.795608 #20044]  INFO -- default-centos-66:     +CMD_PREFIX=''
+I, [2015-10-03T16:24:22.795608 #20044]  INFO -- default-centos-66:     +
+I, [2015-10-03T16:24:22.795608 #20044]  INFO -- default-centos-66:     +if [ ! -z "$JBOSS_USER" ]; then
+I, [2015-10-03T16:24:22.795608 #20044]  INFO -- default-centos-66:     +  if [ -x /etc/rc.d/init.d/functions ]; then
+I, [2015-10-03T16:24:22.795608 #20044]  INFO -- default-centos-66:     +    CMD_PREFIX="daemon --user $JBOSS_USER"
+I, [2015-10-03T16:24:22.795608 #20044]  INFO -- default-centos-66:     +  else
+I, [2015-10-03T16:24:22.795608 #20044]  INFO -- default-centos-66:     +    CMD_PREFIX="su - $JBOSS_USER -c"
+I, [2015-10-03T16:24:22.796108 #20044]  INFO -- default-centos-66:     +  fi
+I, [2015-10-03T16:24:22.796108 #20044]  INFO -- default-centos-66:     +fi
+I, [2015-10-03T16:24:22.796108 #20044]  INFO -- default-centos-66:     +
+I, [2015-10-03T16:24:22.796108 #20044]  INFO -- default-centos-66:     +start() {
+I, [2015-10-03T16:24:22.796108 #20044]  INFO -- default-centos-66:     +  echo -n "Starting $prog: "
+I, [2015-10-03T16:24:22.796108 #20044]  INFO -- default-centos-66:     +  if [ -f $JBOSS_PIDFILE ]; then
+I, [2015-10-03T16:24:22.796108 #20044]  INFO -- default-centos-66:     +    read ppid < $JBOSS_PIDFILE
+I, [2015-10-03T16:24:22.796108 #20044]  INFO -- default-centos-66:     +    if [ `ps --pid $ppid 2> /dev/null | grep -c $ppid 2> /dev/null` -eq '1' ]; then
+I, [2015-10-03T16:24:22.796108 #20044]  INFO -- default-centos-66:     +      echo -n "$prog is already running"
+I, [2015-10-03T16:24:22.796108 #20044]  INFO -- default-centos-66:     +      failure
+I, [2015-10-03T16:24:22.796108 #20044]  INFO -- default-centos-66:     +      echo
+I, [2015-10-03T16:24:22.796108 #20044]  INFO -- default-centos-66:     +      return 1
+I, [2015-10-03T16:24:22.796108 #20044]  INFO -- default-centos-66:     +    else
+I, [2015-10-03T16:24:22.796108 #20044]  INFO -- default-centos-66:     +      rm -f $JBOSS_PIDFILE
+I, [2015-10-03T16:24:22.835613 #20044]  INFO -- default-centos-66: 
+I, [2015-10-03T16:24:22.835613 #20044]  INFO -- default-centos-66:     +  fi
+I, [2015-10-03T16:24:22.835613 #20044]  INFO -- default-centos-66:     +  mkdir -p $(dirname $JBOSS_CONSOLE_LOG)
+I, [2015-10-03T16:24:22.835613 #20044]  INFO -- default-centos-66:     +  cat /dev/null > $JBOSS_CONSOLE_LOG
+I, [2015-10-03T16:24:22.835613 #20044]  INFO -- default-centos-66:     +
+I, [2015-10-03T16:24:22.836113 #20044]  INFO -- default-centos-66:     +  mkdir -p $(dirname $JBOSS_PIDFILE)
+I, [2015-10-03T16:24:22.836113 #20044]  INFO -- default-centos-66:     +  chown $JBOSS_USER $(dirname $JBOSS_PIDFILE) || true
+I, [2015-10-03T16:24:22.836113 #20044]  INFO -- default-centos-66:     +  #$CMD_PREFIX JBOSS_PIDFILE=$JBOSS_PIDFILE $JBOSS_SCRIPT 2>&1 > $JBOSS_CONSOLE_LOG &
+I, [2015-10-03T16:24:22.836113 #20044]  INFO -- default-centos-66:     +  #$CMD_PREFIX JBOSS_PIDFILE=$JBOSS_PIDFILE $JBOSS_SCRIPT &
+I, [2015-10-03T16:24:22.836113 #20044]  INFO -- default-centos-66:     +
+I, [2015-10-03T16:24:22.836113 #20044]  INFO -- default-centos-66:     +  if [ ! -z "$JBOSS_USER" ]; then
+I, [2015-10-03T16:24:22.836113 #20044]  INFO -- default-centos-66:     +    if [ -x /etc/rc.d/init.d/functions ]; then
+I, [2015-10-03T16:24:22.836113 #20044]  INFO -- default-centos-66:     +      daemon --user $JBOSS_USER LAUNCH_JBOSS_IN_BACKGROUND=1 JBOSS_PIDFILE=$JBOSS_PIDFILE $JBOSS_SCRIPT -c $JBOSS_CONFIG 2>&1 > $JBOSS_CONSOLE_LOG &
+I, [2015-10-03T16:24:22.836113 #20044]  INFO -- default-centos-66:     +    else
+I, [2015-10-03T16:24:22.836113 #20044]  INFO -- default-centos-66:     +      su - $JBOSS_USER -c "LAUNCH_JBOSS_IN_BACKGROUND=1 JBOSS_PIDFILE=$JBOSS_PIDFILE $JBOSS_SCRIPT -c $JBOSS_CONFIG" 2>&1 > $JBOSS_CONSOLE_LOG &
+I, [2015-10-03T16:24:22.836113 #20044]  INFO -- default-centos-66:     +    fi
+I, [2015-10-03T16:24:22.836113 #20044]  INFO -- default-centos-66:     +  fi
+I, [2015-10-03T16:24:22.836113 #20044]  INFO -- default-centos-66:     +
+I, [2015-10-03T16:24:22.836113 #20044]  INFO -- default-centos-66:     +  count=0
+I, [2015-10-03T16:24:22.836113 #20044]  INFO -- default-centos-66:     +  launched=false
+I, [2015-10-03T16:24:22.836113 #20044]  INFO -- default-centos-66:     +
+I, [2015-10-03T16:24:22.836613 #20044]  INFO -- default-centos-66:     +  until [ $count -gt $STARTUP_WAIT ]
+I, [2015-10-03T16:24:22.836613 #20044]  INFO -- default-centos-66:     +  do
+I, [2015-10-03T16:24:22.836613 #20044]  INFO -- default-centos-66:     +    grep 'JBoss AS.*started in' $JBOSS_CONSOLE_LOG > /dev/null
+I, [2015-10-03T16:24:22.836613 #20044]  INFO -- default-centos-66:     +    if [ $? -eq 0 ] ; then
+I, [2015-10-03T16:24:22.836613 #20044]  INFO -- default-centos-66:     +      launched=true
+I, [2015-10-03T16:24:22.836613 #20044]  INFO -- default-centos-66:     +      break
+I, [2015-10-03T16:24:22.836613 #20044]  INFO -- default-centos-66:     +    fi
+I, [2015-10-03T16:24:22.836613 #20044]  INFO -- default-centos-66:     +    sleep 1
+I, [2015-10-03T16:24:22.836613 #20044]  INFO -- default-centos-66:     +    let count=$count+1;
+I, [2015-10-03T16:24:22.836613 #20044]  INFO -- default-centos-66:     +  done
+I, [2015-10-03T16:24:22.836613 #20044]  INFO -- default-centos-66:     +
+I, [2015-10-03T16:24:22.836613 #20044]  INFO -- default-centos-66:     +  success
+I, [2015-10-03T16:24:22.836613 #20044]  INFO -- default-centos-66:     +  echo
+I, [2015-10-03T16:24:22.836613 #20044]  INFO -- default-centos-66:     +  return 0
+I, [2015-10-03T16:24:22.836613 #20044]  INFO -- default-centos-66:     +}
+I, [2015-10-03T16:24:22.836613 #20044]  INFO -- default-centos-66:     +
+I, [2015-10-03T16:24:22.836613 #20044]  INFO -- default-centos-66:     +stop() {
+I, [2015-10-03T16:24:22.837114 #20044]  INFO -- default-centos-66:     +  echo -n $"Stopping $prog: "
+I, [2015-10-03T16:24:22.837114 #20044]  INFO -- default-centos-66:     +  count=0;
+I, [2015-10-03T16:24:22.837114 #20044]  INFO -- default-centos-66:     +
+I, [2015-10-03T16:24:22.837114 #20044]  INFO -- default-centos-66:     +  if [ -f $JBOSS_PIDFILE ]; then
+I, [2015-10-03T16:24:22.837114 #20044]  INFO -- default-centos-66:     +    read kpid < $JBOSS_PIDFILE
+I, [2015-10-03T16:24:22.837114 #20044]  INFO -- default-centos-66:     +    let kwait=$SHUTDOWN_WAIT
+I, [2015-10-03T16:24:22.837114 #20044]  INFO -- default-centos-66:     +
+I, [2015-10-03T16:24:22.837114 #20044]  INFO -- default-centos-66:     +    # Try issuing SIGTERM
+I, [2015-10-03T16:24:22.837114 #20044]  INFO -- default-centos-66:     +
+I, [2015-10-03T16:24:22.837114 #20044]  INFO -- default-centos-66:     +    kill -15 $kpid
+I, [2015-10-03T16:24:22.837114 #20044]  INFO -- default-centos-66:     +    until [ `ps --pid $kpid 2> /dev/null | grep -c $kpid 2> /dev/null` -eq '0' ] || [ $count -gt $kwait ]
+I, [2015-10-03T16:24:22.837114 #20044]  INFO -- default-centos-66:     +    do
+I, [2015-10-03T16:24:22.837114 #20044]  INFO -- default-centos-66:     +      sleep 1
+I, [2015-10-03T16:24:22.837114 #20044]  INFO -- default-centos-66:     +      let count=$count+1;
+I, [2015-10-03T16:24:22.837114 #20044]  INFO -- default-centos-66:     +    done
+I, [2015-10-03T16:24:22.837114 #20044]  INFO -- default-centos-66:     +
+I, [2015-10-03T16:24:22.837114 #20044]  INFO -- default-centos-66:     +    if [ $count -gt $kwait ]; then
+I, [2015-10-03T16:24:22.837114 #20044]  INFO -- default-centos-66:     +      kill -9 $kpid
+I, [2015-10-03T16:24:22.837114 #20044]  INFO -- default-centos-66:     +    fi
+I, [2015-10-03T16:24:22.837114 #20044]  INFO -- default-centos-66:     +  fi
+I, [2015-10-03T16:24:22.837614 #20044]  INFO -- default-centos-66:     +  rm -f $JBOSS_PIDFILE
+I, [2015-10-03T16:24:22.837614 #20044]  INFO -- default-centos-66:     +  success
+I, [2015-10-03T16:24:22.837614 #20044]  INFO -- default-centos-66:     +  echo
+I, [2015-10-03T16:24:22.837614 #20044]  INFO -- default-centos-66:     +}
+I, [2015-10-03T16:24:22.837614 #20044]  INFO -- default-centos-66:     +
+I, [2015-10-03T16:24:22.837614 #20044]  INFO -- default-centos-66:     +status() {
+I, [2015-10-03T16:24:22.837614 #20044]  INFO -- default-centos-66:     +  if [ -f $JBOSS_PIDFILE ]; then
+I, [2015-10-03T16:24:22.837614 #20044]  INFO -- default-centos-66:     +    read ppid < $JBOSS_PIDFILE
+I, [2015-10-03T16:24:22.837614 #20044]  INFO -- default-centos-66:     +    if [ `ps --pid $ppid 2> /dev/null | grep -c $ppid 2> /dev/null` -eq '1' ]; then
+I, [2015-10-03T16:24:22.837614 #20044]  INFO -- default-centos-66:     +      echo "$prog is running (pid $ppid)"
+I, [2015-10-03T16:24:22.837614 #20044]  INFO -- default-centos-66:     +      return 0
+I, [2015-10-03T16:24:22.837614 #20044]  INFO -- default-centos-66:     +    else
+I, [2015-10-03T16:24:22.837614 #20044]  INFO -- default-centos-66:     +      echo "$prog dead but pid file exists"
+I, [2015-10-03T16:24:22.837614 #20044]  INFO -- default-centos-66:     +      return 1
+I, [2015-10-03T16:24:22.837614 #20044]  INFO -- default-centos-66:     +    fi
+I, [2015-10-03T16:24:22.837614 #20044]  INFO -- default-centos-66:     +  fi
+I, [2015-10-03T16:24:22.837614 #20044]  INFO -- default-centos-66:     +  echo "$prog is not running"
+I, [2015-10-03T16:24:22.837614 #20044]  INFO -- default-centos-66:     +  return 3
+I, [2015-10-03T16:24:22.837614 #20044]  INFO -- default-centos-66:     +}
+I, [2015-10-03T16:24:22.838114 #20044]  INFO -- default-centos-66:     +
+I, [2015-10-03T16:24:22.838114 #20044]  INFO -- default-centos-66:     +case "$1" in
+I, [2015-10-03T16:24:22.838114 #20044]  INFO -- default-centos-66:     +  start)
+I, [2015-10-03T16:24:22.838114 #20044]  INFO -- default-centos-66:     +      start
+I, [2015-10-03T16:24:22.838114 #20044]  INFO -- default-centos-66:     +      ;;
+I, [2015-10-03T16:24:22.838114 #20044]  INFO -- default-centos-66:     +  stop)
+I, [2015-10-03T16:24:22.838114 #20044]  INFO -- default-centos-66:     +      stop
+I, [2015-10-03T16:24:22.838114 #20044]  INFO -- default-centos-66:     +      ;;
+I, [2015-10-03T16:24:22.838114 #20044]  INFO -- default-centos-66:     +  restart)
+I, [2015-10-03T16:24:22.838114 #20044]  INFO -- default-centos-66:     +      $0 stop
+I, [2015-10-03T16:24:22.838114 #20044]  INFO -- default-centos-66:     +      $0 start
+I, [2015-10-03T16:24:22.838114 #20044]  INFO -- default-centos-66:     +      ;;
+I, [2015-10-03T16:24:22.838114 #20044]  INFO -- default-centos-66:     +  status)
+I, [2015-10-03T16:24:22.838114 #20044]  INFO -- default-centos-66:     +      status
+I, [2015-10-03T16:24:22.838114 #20044]  INFO -- default-centos-66:     +      ;;
+I, [2015-10-03T16:24:22.838114 #20044]  INFO -- default-centos-66:     +  *)
+I, [2015-10-03T16:24:22.838114 #20044]  INFO -- default-centos-66:     +      ## If no parameters are given, print which are avaiable.
+I, [2015-10-03T16:24:22.838614 #20044]  INFO -- default-centos-66:     +      echo "Usage: $0 {start|stop|status|restart|reload}"
+I, [2015-10-03T16:24:22.838614 #20044]  INFO -- default-centos-66:     +      exit 1
+I, [2015-10-03T16:24:22.838614 #20044]  INFO -- default-centos-66:     +      ;;
+I, [2015-10-03T16:24:22.838614 #20044]  INFO -- default-centos-66:     +esac
+I, [2015-10-03T16:24:22.869618 #20044]  INFO -- default-centos-66: 
+I, [2015-10-03T16:24:22.869618 #20044]  INFO -- default-centos-66:     - change mode from '' to '0775'
+I, [2015-10-03T16:24:22.870118 #20044]  INFO -- default-centos-66:     - change owner from '' to 'root'
+I, [2015-10-03T16:24:22.901122 #20044]  INFO -- default-centos-66: 
+I, [2015-10-03T16:24:22.901122 #20044]  INFO -- default-centos-66:     - restore selinux security context
+I, [2015-10-03T16:24:22.902622 #20044]  INFO -- default-centos-66: 
+I, [2015-10-03T16:24:22.902622 #20044]  INFO -- default-centos-66:     - create new directory /etc/jboss-as
+I, [2015-10-03T16:24:22.902622 #20044]  INFO -- default-centos-66:     - change mode from '' to '0644'
+I, [2015-10-03T16:24:22.902622 #20044]  INFO -- default-centos-66:     - change owner from '' to 'root'
+I, [2015-10-03T16:24:23.004635 #20044]  INFO -- default-centos-66: 
+I, [2015-10-03T16:24:23.004635 #20044]  INFO -- default-centos-66:     - restore selinux security context
+I, [2015-10-03T16:24:23.006635 #20044]  INFO -- default-centos-66: 
+I, [2015-10-03T16:24:23.007135 #20044]  INFO -- default-centos-66: 
+I, [2015-10-03T16:24:23.007135 #20044]  INFO -- default-centos-66:     - update content in file /etc/jboss-as/jboss-as.conf from none to 970057
+I, [2015-10-03T16:24:23.007135 #20044]  INFO -- default-centos-66:     --- /etc/jboss-as/jboss-as.conf	2015-10-03 13:24:21.370206993 +0000
+I, [2015-10-03T16:24:23.007135 #20044]  INFO -- default-centos-66:     +++ /tmp/chef-rendered-template20151003-2511-1oy3x02	2015-10-03 13:24:21.370206993 +0000
+I, [2015-10-03T16:24:23.007135 #20044]  INFO -- default-centos-66:     @@ -1 +1,4 @@
+I, [2015-10-03T16:24:23.007135 #20044]  INFO -- default-centos-66:     +JBOSS_HOME="/opt/jboss-as-7.1.1.Final"
+I, [2015-10-03T16:24:23.007135 #20044]  INFO -- default-centos-66:     +JBOSS_CONSOLE_LOG="/var/log/jboss.log"
+I, [2015-10-03T16:24:23.007135 #20044]  INFO -- default-centos-66:     +JBOSS_USER="jboss"
+I, [2015-10-03T16:24:23.007135 #20044]  INFO -- default-centos-66:     - change mode from '' to '0644'
+I, [2015-10-03T16:24:23.007635 #20044]  INFO -- default-centos-66:     - change owner from '' to 'root'
+I, [2015-10-03T16:24:23.101147 #20044]  INFO -- default-centos-66: 
+I, [2015-10-03T16:24:23.101147 #20044]  INFO -- default-centos-66:     - restore selinux security context
+I, [2015-10-03T16:24:23.112148 #20044]  INFO -- default-centos-66: 
+I, [2015-10-03T16:24:23.112148 #20044]  INFO -- default-centos-66:     - update content in file /opt/jboss-as-7.1.1.Final/standalone/configuration/standalone.xml from 798224 to 0e4571
+I, [2015-10-03T16:24:23.112649 #20044]  INFO -- default-centos-66:     --- /opt/jboss-as-7.1.1.Final/standalone/configuration/standalone.xml	2012-03-10 00:14:06.000000000 +0000
+I, [2015-10-03T16:24:23.112649 #20044]  INFO -- default-centos-66:     +++ /tmp/chef-rendered-template20151003-2511-4og0yb	2015-10-03 13:24:21.473258493 +0000
+I, [2015-10-03T16:24:23.112649 #20044]  INFO -- default-centos-66:     @@ -1,6 +1,7 @@
+I, [2015-10-03T16:24:23.112649 #20044]  INFO -- default-centos-66:      <?xml version='1.0' encoding='UTF-8'?>
+I, [2015-10-03T16:24:23.112649 #20044]  INFO -- default-centos-66:      
+I, [2015-10-03T16:24:23.112649 #20044]  INFO -- default-centos-66:      <server xmlns="urn:jboss:domain:1.2">
+I, [2015-10-03T16:24:23.112649 #20044]  INFO -- default-centos-66:     +
+I, [2015-10-03T16:24:23.112649 #20044]  INFO -- default-centos-66:   <extensions>
+I, [2015-10-03T16:24:23.112649 #20044]  INFO -- default-centos-66:       <extension module="org.jboss.as.clustering.infinispan"/>
+I, [2015-10-03T16:24:23.112649 #20044]  INFO -- default-centos-66:       <extension module="org.jboss.as.configadmin"/>
+I, [2015-10-03T16:24:23.112649 #20044]  INFO -- default-centos-66:     @@ -26,6 +27,7 @@
+I, [2015-10-03T16:24:23.112649 #20044]  INFO -- default-centos-66:       <extension module="org.jboss.as.webservices"/>
+I, [2015-10-03T16:24:23.112649 #20044]  INFO -- default-centos-66:       <extension module="org.jboss.as.weld"/>
+I, [2015-10-03T16:24:23.112649 #20044]  INFO -- default-centos-66:   </extensions>
+I, [2015-10-03T16:24:23.112649 #20044]  INFO -- default-centos-66:     +
+I, [2015-10-03T16:24:23.113149 #20044]  INFO -- default-centos-66:   <management>
+I, [2015-10-03T16:24:23.113149 #20044]  INFO -- default-centos-66:       <security-realms>
+I, [2015-10-03T16:24:23.113149 #20044]  INFO -- default-centos-66:           <security-realm name="ManagementRealm">
+I, [2015-10-03T16:24:23.113149 #20044]  INFO -- default-centos-66:     @@ -48,6 +50,7 @@
+I, [2015-10-03T16:24:23.113149 #20044]  INFO -- default-centos-66:           </http-interface>
+I, [2015-10-03T16:24:23.113149 #20044]  INFO -- default-centos-66:       </management-interfaces>
+I, [2015-10-03T16:24:23.113149 #20044]  INFO -- default-centos-66:   </management>
+I, [2015-10-03T16:24:23.113149 #20044]  INFO -- default-centos-66:     +
+I, [2015-10-03T16:24:23.113149 #20044]  INFO -- default-centos-66:   <profile>
+I, [2015-10-03T16:24:23.113149 #20044]  INFO -- default-centos-66:       <subsystem xmlns="urn:jboss:domain:logging:1.1">
+I, [2015-10-03T16:24:23.113149 #20044]  INFO -- default-centos-66:           <console-handler name="CONSOLE">
+I, [2015-10-03T16:24:23.113149 #20044]  INFO -- default-centos-66:     @@ -196,14 +199,13 @@
+I, [2015-10-03T16:24:23.113149 #20044]  INFO -- default-centos-66:       <subsystem xmlns="urn:jboss:domain:naming:1.1"/>
+I, [2015-10-03T16:24:23.113649 #20044]  INFO -- default-centos-66:       <subsystem xmlns="urn:jboss:domain:osgi:1.2" activation="lazy">
+I, [2015-10-03T16:24:23.113649 #20044]  INFO -- default-centos-66:           <properties>
+I, [2015-10-03T16:24:23.113649 #20044]  INFO -- default-centos-66:     -                <!-- Specifies the beginning start level of the framework -->
+I, [2015-10-03T16:24:23.113649 #20044]  INFO -- default-centos-66:     -                <property name="org.osgi.framework.startlevel.beginning">1</property>
+I, [2015-10-03T16:24:23.113649 #20044]  INFO -- default-centos-66:     +                <property name="org.osgi.framework.startlevel.beginning">
+I, [2015-10-03T16:24:23.113649 #20044]  INFO -- default-centos-66:     +                    1
+I, [2015-10-03T16:24:23.113649 #20044]  INFO -- default-centos-66:     +                </property>
+I, [2015-10-03T16:24:23.113649 #20044]  INFO -- default-centos-66:           </properties>
+I, [2015-10-03T16:24:23.113649 #20044]  INFO -- default-centos-66:           <capabilities>
+I, [2015-10-03T16:24:23.113649 #20044]  INFO -- default-centos-66:     -                <!-- modules registered with the OSGi layer on startup -->
+I, [2015-10-03T16:24:23.113649 #20044]  INFO -- default-centos-66:               <capability name="javax.servlet.api:v25"/>
+I, [2015-10-03T16:24:23.113649 #20044]  INFO -- default-centos-66:               <capability name="javax.transaction.api"/>
+I, [2015-10-03T16:24:23.113649 #20044]  INFO -- default-centos-66:     -                <!-- bundles started in startlevel 1 -->
+I, [2015-10-03T16:24:23.113649 #20044]  INFO -- default-centos-66:               <capability name="org.apache.felix.log" startlevel="1"/>
+I, [2015-10-03T16:24:23.113649 #20044]  INFO -- default-centos-66:               <capability name="org.jboss.osgi.logging" startlevel="1"/>
+I, [2015-10-03T16:24:23.114149 #20044]  INFO -- default-centos-66:               <capability name="org.apache.felix.configadmin" startlevel="1"/>
+I, [2015-10-03T16:24:23.114149 #20044]  INFO -- default-centos-66:     @@ -272,22 +274,19 @@
+I, [2015-10-03T16:24:23.114149 #20044]  INFO -- default-centos-66:       </subsystem>
+I, [2015-10-03T16:24:23.114149 #20044]  INFO -- default-centos-66:       <subsystem xmlns="urn:jboss:domain:weld:1.0"/>
+I, [2015-10-03T16:24:23.114149 #20044]  INFO -- default-centos-66:   </profile>
+I, [2015-10-03T16:24:23.114149 #20044]  INFO -- default-centos-66:     +
+I, [2015-10-03T16:24:23.114149 #20044]  INFO -- default-centos-66:   <interfaces>
+I, [2015-10-03T16:24:23.114149 #20044]  INFO -- default-centos-66:       <interface name="management">
+I, [2015-10-03T16:24:23.114149 #20044]  INFO -- default-centos-66:     -            <inet-address value="${jboss.bind.address.management:127.0.0.1}"/>
+I, [2015-10-03T16:24:23.114149 #20044]  INFO -- default-centos-66:     +            <any-ipv4-address/>
+I, [2015-10-03T16:24:23.114149 #20044]  INFO -- default-centos-66:       </interface>
+I, [2015-10-03T16:24:23.114149 #20044]  INFO -- default-centos-66:       <interface name="public">
+I, [2015-10-03T16:24:23.114149 #20044]  INFO -- default-centos-66:     -            <inet-address value="${jboss.bind.address:127.0.0.1}"/>
+I, [2015-10-03T16:24:23.114149 #20044]  INFO -- default-centos-66:     +            <any-ipv4-address/>
+I, [2015-10-03T16:24:23.114149 #20044]  INFO -- default-centos-66:       </interface>
+I, [2015-10-03T16:24:23.114149 #20044]  INFO -- default-centos-66:     -        <!-- TODO - only show this if the jacorb subsystem is added  -->
+I, [2015-10-03T16:24:23.114149 #20044]  INFO -- default-centos-66:       <interface name="unsecure">
+I, [2015-10-03T16:24:23.114649 #20044]  INFO -- default-centos-66:     -            <!--
+I, [2015-10-03T16:24:23.114649 #20044]  INFO -- default-centos-66:     -              ~  Used for IIOP sockets in the standard configuration.
+I, [2015-10-03T16:24:23.114649 #20044]  INFO -- default-centos-66:     -              ~                  To secure JacORB you need to setup SSL 
+I, [2015-10-03T16:24:23.114649 #20044]  INFO -- default-centos-66:     -              -->
+I, [2015-10-03T16:24:23.114649 #20044]  INFO -- default-centos-66:           <inet-address value="${jboss.bind.address.unsecure:127.0.0.1}"/>
+I, [2015-10-03T16:24:23.114649 #20044]  INFO -- default-centos-66:       </interface>
+I, [2015-10-03T16:24:23.114649 #20044]  INFO -- default-centos-66:   </interfaces>
+I, [2015-10-03T16:24:23.114649 #20044]  INFO -- default-centos-66:     +
+I, [2015-10-03T16:24:23.114649 #20044]  INFO -- default-centos-66:   <socket-binding-group name="standard-sockets" default-interface="public" port-offset="${jboss.socket.binding.port-offset:0}">
+I, [2015-10-03T16:24:23.114649 #20044]  INFO -- default-centos-66:       <socket-binding name="management-native" interface="management" port="${jboss.management.native.port:9999}"/>
+I, [2015-10-03T16:24:23.114649 #20044]  INFO -- default-centos-66:       <socket-binding name="management-http" interface="management" port="${jboss.management.http.port:9990}"/>
+I, [2015-10-03T16:24:23.114649 #20044]  INFO -- default-centos-66:     @@ -303,5 +302,7 @@
+I, [2015-10-03T16:24:23.114649 #20044]  INFO -- default-centos-66:           <remote-destination host="localhost" port="25"/>
+I, [2015-10-03T16:24:23.114649 #20044]  INFO -- default-centos-66:       </outbound-socket-binding>
+I, [2015-10-03T16:24:23.114649 #20044]  INFO -- default-centos-66:   </socket-binding-group>
+I, [2015-10-03T16:24:23.114649 #20044]  INFO -- default-centos-66:     +
+I, [2015-10-03T16:24:23.114649 #20044]  INFO -- default-centos-66:      </server>
+I, [2015-10-03T16:24:23.208161 #20044]  INFO -- default-centos-66: 
+I, [2015-10-03T16:24:23.208161 #20044]  INFO -- default-centos-66:     - restore selinux security context
+I, [2015-10-03T16:24:23.219662 #20044]  INFO -- default-centos-66: 
+I, [2015-10-03T16:24:23.219662 #20044]  INFO -- default-centos-66:     - update content in file /opt/jboss-as-7.1.1.Final/standalone/configuration/mgmt-users.properties from d05833 to 940245
+I, [2015-10-03T16:24:23.219662 #20044]  INFO -- default-centos-66:     --- /opt/jboss-as-7.1.1.Final/standalone/configuration/mgmt-users.properties	2012-03-10 00:14:02.000000000 +0000
+I, [2015-10-03T16:24:23.219662 #20044]  INFO -- default-centos-66:     +++ /tmp/chef-rendered-template20151003-2511-1k9ct9h	2015-10-03 13:24:21.580311993 +0000
+I, [2015-10-03T16:24:23.220162 #20044]  INFO -- default-centos-66:     @@ -1,23 +1,3 @@
+I, [2015-10-03T16:24:23.220162 #20044]  INFO -- default-centos-66:     -#
+I, [2015-10-03T16:24:23.220162 #20044]  INFO -- default-centos-66:     -# Properties declaration of users for the realm 'ManagementRealm' which is the default realm
+I, [2015-10-03T16:24:23.220162 #20044]  INFO -- default-centos-66:     -# for new AS 7.1 installations. Further authentication mechanism can be configured
+I, [2015-10-03T16:24:23.220162 #20044]  INFO -- default-centos-66:     -# as part of the <management /> in standalone.xml.
+I, [2015-10-03T16:24:23.220162 #20044]  INFO -- default-centos-66:     -#
+I, [2015-10-03T16:24:23.220162 #20044]  INFO -- default-centos-66:     -# Users can be added to this properties file at any time, updates after the server has started
+I, [2015-10-03T16:24:23.220162 #20044]  INFO -- default-centos-66:     -# will be automatically detected.
+I, [2015-10-03T16:24:23.220162 #20044]  INFO -- default-centos-66:     -#
+I, [2015-10-03T16:24:23.220162 #20044]  INFO -- default-centos-66:     -# By default the properties realm expects the entries to be in the format: -
+I, [2015-10-03T16:24:23.220162 #20044]  INFO -- default-centos-66:     -# username=HEX( MD5( username ':' realm ':' password))
+I, [2015-10-03T16:24:23.220162 #20044]  INFO -- default-centos-66:     -#
+I, [2015-10-03T16:24:23.220162 #20044]  INFO -- default-centos-66:     -# A utility script is provided which can be executed from the bin folder to add the users: -
+I, [2015-10-03T16:24:23.220162 #20044]  INFO -- default-centos-66:     -# - Linux
+I, [2015-10-03T16:24:23.220162 #20044]  INFO -- default-centos-66:     -#  bin/add-user.sh
+I, [2015-10-03T16:24:23.220662 #20044]  INFO -- default-centos-66:     -#
+I, [2015-10-03T16:24:23.220662 #20044]  INFO -- default-centos-66:     -# - Windows
+I, [2015-10-03T16:24:23.220662 #20044]  INFO -- default-centos-66:     -#  bin\add-user.bat
+I, [2015-10-03T16:24:23.220662 #20044]  INFO -- default-centos-66:     -
+I, [2015-10-03T16:24:23.220662 #20044]  INFO -- default-centos-66:     -# The following illustrates how an admin user could be defined, this
+I, [2015-10-03T16:24:23.220662 #20044]  INFO -- default-centos-66:     -# is for illustration only and does not correspond to a usable password.
+I, [2015-10-03T16:24:23.220662 #20044]  INFO -- default-centos-66:     -#
+I, [2015-10-03T16:24:23.220662 #20044]  INFO -- default-centos-66:     -#admin=2a0923285184943425d1f53ddd58ec7a
+I, [2015-10-03T16:24:23.220662 #20044]  INFO -- default-centos-66:     +#configs match pass: root
+I, [2015-10-03T16:24:23.234664 #20044]  INFO -- default-centos-66: 
+I, [2015-10-03T16:24:23.305673 #20044]  INFO -- default-centos-66: 
+I, [2015-10-03T16:24:23.305673 #20044]  INFO -- default-centos-66:     - restore selinux security context
+I, [2015-10-03T16:24:23.317174 #20044]  INFO -- default-centos-66: 
+I, [2015-10-03T16:24:23.317174 #20044]  INFO -- default-centos-66:     - update content in file /opt/jboss-as-7.1.1.Final/domain/configuration/mgmt-users.properties from cf4fb5 to 940245
+I, [2015-10-03T16:24:23.317174 #20044]  INFO -- default-centos-66:     --- /opt/jboss-as-7.1.1.Final/domain/configuration/mgmt-users.properties	2012-03-10 00:14:02.000000000 +0000
+I, [2015-10-03T16:24:23.317174 #20044]  INFO -- default-centos-66:     +++ /tmp/chef-rendered-template20151003-2511-1pd5xy	2015-10-03 13:24:21.678360993 +0000
+I, [2015-10-03T16:24:23.317675 #20044]  INFO -- default-centos-66:     @@ -1,26 +1,3 @@
+I, [2015-10-03T16:24:23.317675 #20044]  INFO -- default-centos-66:     -#
+I, [2015-10-03T16:24:23.317675 #20044]  INFO -- default-centos-66:     -# Properties declaration of users for the realm 'ManagementRealm' which is the default realm 
+I, [2015-10-03T16:24:23.317675 #20044]  INFO -- default-centos-66:     -# for new AS 7.1 installations. Further authentication mechanism can be configured
+I, [2015-10-03T16:24:23.317675 #20044]  INFO -- default-centos-66:     -# as part of the <management /> in host.xml.
+I, [2015-10-03T16:24:23.317675 #20044]  INFO -- default-centos-66:     -#
+I, [2015-10-03T16:24:23.317675 #20044]  INFO -- default-centos-66:     -# Users can be added to this properties file at any time, updates after the server has started
+I, [2015-10-03T16:24:23.317675 #20044]  INFO -- default-centos-66:     -# will be automatically detected.
+I, [2015-10-03T16:24:23.317675 #20044]  INFO -- default-centos-66:     -#
+I, [2015-10-03T16:24:23.317675 #20044]  INFO -- default-centos-66:     -# By default the properties realm expects the entries to be in the format: -
+I, [2015-10-03T16:24:23.317675 #20044]  INFO -- default-centos-66:     -# username=HEX( MD5( username ':' realm ':' password))
+I, [2015-10-03T16:24:23.318175 #20044]  INFO -- default-centos-66:     -#
+I, [2015-10-03T16:24:23.318175 #20044]  INFO -- default-centos-66:     -# A utility script is provided which can be executed from the bin folder to add the users: -
+I, [2015-10-03T16:24:23.318175 #20044]  INFO -- default-centos-66:     -# - Linux
+I, [2015-10-03T16:24:23.318175 #20044]  INFO -- default-centos-66:     -#  bin/add-user.sh
+I, [2015-10-03T16:24:23.318175 #20044]  INFO -- default-centos-66:     -#
+I, [2015-10-03T16:24:23.318175 #20044]  INFO -- default-centos-66:     -# - Windows
+I, [2015-10-03T16:24:23.318175 #20044]  INFO -- default-centos-66:     -#  bin\add-user.bat
+I, [2015-10-03T16:24:23.318175 #20044]  INFO -- default-centos-66:     -#
+I, [2015-10-03T16:24:23.318175 #20044]  INFO -- default-centos-66:     -# On start-up the server will also automatically add a user $local - this user is specifically
+I, [2015-10-03T16:24:23.318175 #20044]  INFO -- default-centos-66:     -# for local tools running against this AS installation.
+I, [2015-10-03T16:24:23.318175 #20044]  INFO -- default-centos-66:     -#
+I, [2015-10-03T16:24:23.318175 #20044]  INFO -- default-centos-66:     -# The following illustrates how an admin user could be defined, this
+I, [2015-10-03T16:24:23.318175 #20044]  INFO -- default-centos-66:     -# is for illustration only an does not correspond to a usable password.
+I, [2015-10-03T16:24:23.318175 #20044]  INFO -- default-centos-66:     -#
+I, [2015-10-03T16:24:23.318175 #20044]  INFO -- default-centos-66:     -#admin=2a0923285184943425d1f53ddd58ec7a
+I, [2015-10-03T16:24:23.318175 #20044]  INFO -- default-centos-66:     +#configs match pass: root
+I, [2015-10-03T16:24:23.332676 #20044]  INFO -- default-centos-66: 
+I, [2015-10-03T16:24:23.413187 #20044]  INFO -- default-centos-66: 
+I, [2015-10-03T16:24:23.413187 #20044]  INFO -- default-centos-66:     - restore selinux security context
+I, [2015-10-03T16:24:23.413187 #20044]  INFO -- default-centos-66:   * service[jboss] action nothing (skipped due to action :nothing)
+I, [2015-10-03T16:24:23.535202 #20044]  INFO -- default-centos-66:   * service[jboss] action enable
+I, [2015-10-03T16:24:23.535202 #20044]  INFO -- default-centos-66:     - enable service service[jboss]
+I, [2015-10-03T16:24:23.587709 #20044]  INFO -- default-centos-66: 
+I, [2015-10-03T16:24:23.587709 #20044]  INFO -- default-centos-66:     - start service service[jboss]
+I, [2015-10-03T16:24:33.690492 #20044]  INFO -- default-centos-66: 
+I, [2015-10-03T16:24:33.690492 #20044]  INFO -- default-centos-66:     - restart service service[jboss]
+I, [2015-10-03T16:24:33.723496 #20044]  INFO -- default-centos-66: 
+I, [2015-10-03T16:24:33.723496 #20044]  INFO -- default-centos-66: Running handlers:
+I, [2015-10-03T16:24:33.723496 #20044]  INFO -- default-centos-66: Running handlers complete
+I, [2015-10-03T16:24:33.723496 #20044]  INFO -- default-centos-66: Chef Client finished, 23/24 resources updated in 274.929402029 seconds
+I, [2015-10-03T16:24:35.156178 #20044]  INFO -- default-centos-66: Finished converging <default-centos-66> (5m43.20s).
