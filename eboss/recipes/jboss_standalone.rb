@@ -45,10 +45,10 @@ remote_file "#{jboss_base}/example.zip" do
   group "root"
   mode "0644"
   source node['eboss']['sample_link']
-  notifies :run, "execute[unzip]", :immediately
+  notifies :run, "execute[unpack_example]", :immediately
 end
 
-execute "unzip" do
+execute "unpack_example" do
         cwd node['eboss']['jboss_base']
         command "unzip -o #{jboss_base}/example.zip -d #{jboss_base}/#{homedir_name}/standalone/deployments"
 	action :run
